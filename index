@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kontrola prvočísla</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+
+<header class="w3-container w3-teal">
+    <h2>Kontrola prvočísla</h2>
+</header>
+
+<section class="w3-container w3-light-grey">
+    <div class="w3-margin-bottom w3-margin-top">
+            <label>Zadejte celé číslo:</label>
+            <input class="w3-input" type="number" id="cislo" required>
+    </div>
+    <div class="w3-margin-bottom w3-margin-top">
+        <button class="w3-button w3-teal">Zkontrolovat</button>
+    </div>
+    <p id="vysledek" class="w3-text-teal"></p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
